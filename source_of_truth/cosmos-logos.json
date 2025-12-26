@@ -4,7 +4,7 @@
   "id": "resolver2",
   "role": "agent",
 
-  "inheritsFrom": "https://github.com/root-of-trust/resolver1/raw/main/source_of_truth/cosmos-logos.json",
+  "inheritsFrom": "https://raw.githubusercontent.com/root-of-trust/resolver1/refs/heads/brain/7777/source_of_truth/cosmos-logos.json",
 
   "state": {
     "description": "POC leaf agent for trust-chain resolution"
