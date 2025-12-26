@@ -1,15 +1,12 @@
 {
   "schemaVersion": "cosmos-logos@1.0",
-  "id": "cosmos-logos-alpha",
-  "role": "root",
-  "inheritsFrom": null,
-  "agents": [
-    {
-      "id": "alpha",
-      "webhook": {
-        "onValidate": "https://dff906cb71a1.ngrok.app/webhook/pre-merge",
-        "onPostMerge": "https://dff906cb71a1.ngrok.app/webhook/post-merge"
-      }
-    }
-  ]
+
+  "id": "resolver2",
+  "role": "agent",
+
+  "inheritsFrom": "https://github.com/root-of-trust/resolver1/raw/main/source_of_truth/cosmos-logos.json",
+
+  "state": {
+    "description": "POC leaf agent for trust-chain resolution"
+  }
 }
